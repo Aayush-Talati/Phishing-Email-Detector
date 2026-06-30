@@ -321,6 +321,13 @@ Important Deployment Note
 
 Streamlit Community Cloud needs access to the trained model file.
 
+Make sure this file is included in the repository:
+
+models/phishguard_model.joblib
+
+The dataset CSV files do not need to be uploaded if the model has already been trained and included.
+
+
 Common Issues
 Streamlit command is not recognized
 
